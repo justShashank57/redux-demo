@@ -6,7 +6,7 @@ export default function App() {
   const dispatch = useDispatch();
   return (
     <div className="App" style={{display:"flex",flexDirection:"column",width:"50%"}}>
-          Hi this is a counter.
+          Hi this is a Counter
           <button onClick={()=>dispatch(decrement())}>
             Decrement
           </button>
